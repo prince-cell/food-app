@@ -1,0 +1,52 @@
+@media screen and (min-width: 320px) {
+  .title {
+    margin: 1em;
+    font-size: 1.58rem;
+    text-align: center;
+    color: #e51d26;
+  }
+
+  .desc {
+    font-size: 1rem;
+    color: #666;
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .wrapper {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .wrapper {
+    max-width: 60%;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .wrapper{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desc{
+    padding-left: 2em;
+    white-space: normal;
+    max-width: 95%;
+  }
+}

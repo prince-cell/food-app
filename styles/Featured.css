@@ -1,0 +1,27 @@
+.navigation-wrapper {
+  background-color: #e51d26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.keen-slider{
+  flex: 1;
+  z-index: 10;
+}
+
+.keen-slider__slide{
+  position: relative;
+  top: 146px;
+  left: 39%;
+}
+
+.arrow{
+  border: 12px solid yellow;
+  max-width: 100px;
+  position: absolute;
+  top: 146px;
+  width: 100%;
+  float: left;
+}
